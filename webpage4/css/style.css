@@ -1,0 +1,173 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Heading */
+header {
+  background-color:crimson;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  /* position: fixed; */
+  width: 100%;
+  display:flex;
+}
+header img{
+  width:60px;
+  height:60px;
+  margin-top:20px;
+  border-radius: 100%;
+}
+header h1{
+  margin:10px;
+  font-size:76px;
+
+}
+/* NavigationBar */
+nav {
+  background-color:black;
+  color: white;
+  overflow: auto;
+  height: 80px;
+  position:sticky;
+  top:30px;
+   /* position: fixed; */
+  width: 100%; */
+  /* top:109px; */
+}
+nav ul {
+  float: right;
+  list-style: none;
+  /* background-color: red; */
+  line-height: 70px;
+}
+nav ul li {
+  float: left;
+  /* background-color: red;
+    padding: 10px;
+    margin:10px; */
+  /* display: inline; */
+}
+nav ul li a {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 10px;
+  /* background-color: red; */
+  margin: 10px;
+  /* border: 1px solid white; */
+  border:1px solid black;
+  border-radius: 30%;
+  background-color: white;
+}
+
+/* Section */
+nav ul li a:hover
+{
+  background-color: crimson;
+  color:white;
+}
+section {
+  border: 2px solid black;
+  overflow: auto;
+  width: 100%;
+}
+
+section article {
+  background-color: ;
+  height: 400px;
+  width:40%;
+  float: left;
+}
+section article img{
+ width: 100% ;
+ height: 400px;
+ /* margin:10px; */
+ 
+ box-sizing: border-box;
+ /* border-right:2px solid black; */
+ /* overflow: auto;
+
+} */
+}
+section aside {
+  background-color: crimson;
+  height: 400px;
+  width: 60%;
+  float: left;
+  /* padding:5px; */
+}
+aside p{
+  margin:15px;
+  font-size:20px;
+  font:bold;
+  text-align: justify;
+  padding:5px;
+  margin-top:60px;
+
+  
+
+}
+/* Main Section */
+main {
+  background-color: brown;
+  border: 1px solid black;
+  height: 500px;
+  width:100%;
+  /* position: sticky; */
+  display: flex;
+  align-items: center;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  height: 100px;
+  color:white;
+  display:flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+h1{
+  font-size:25px;
+  margin:20px;
+  align-items: center;
+  /* margin-left:400px; */
+}
+div
+{
+width:30%;
+margin-left:70px;
+/* background-color: crimson; */
+
+
+}
+
+div img{
+  width:250px;
+  height:250px;
+  
+}
+
+div h1{
+  font-size:30px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 45%;
+  width:250px;
+  text-align:center;
+}
+
+div p
+{
+  margin:7px;
+  font-size:25px;
+  background-color: white;
+  border:1px solid black;
+  border-radius: 100%;
+  width:250px;
+  text-align:center;
+}
